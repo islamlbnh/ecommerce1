@@ -28,7 +28,7 @@ const MySwiper = () => {
                     slidesPerView: 4,
                     spaceBetween: 20
                 }}}
-            className="rounded-lg overflow-hidden px-12"
+            className="rounded-lg overflow-hidden  px-12"
         >
             <SwiperSlide>
                 <Card className="border-0 shadow-none">
