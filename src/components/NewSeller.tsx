@@ -1,9 +1,10 @@
-import Swipe from "@/components/common/Swipe.jsx";
-const NewArrival = () => {
+import Swipe from "./common/Swipe";
+
+const NewSeller = () => {
   return (
     <>
-      <div className=" my-18 flex text-5xl font-bold items-center justify-center">
-        NEW ARRIVALS
+      <div className="my-18 flex text-5xl font-bold items-center justify-center">
+        NewSeller
       </div>
       <div className="flex container w-full px-24 mx-auto justify-center items-center">
         <Swipe />
@@ -14,4 +15,5 @@ const NewArrival = () => {
     </>
   );
 };
-export default NewArrival;
+
+export default NewSeller;
